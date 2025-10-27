@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Cormorant";
+    src:
+        url("./fonts/cormorant/Cormorant-Regular.woff") format("woff"),
+        url("./fonts/cormorant/Cormorant-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src:
+        url("./fonts/cormorant/Cormorant-Medium.woff") format("woff"),
+        url("./fonts/cormorant/Cormorant-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src:
+        url("./fonts/cormorant/Cormorant-Bold.woff") format("woff"),
+        url("./fonts/cormorant/Cormorant-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src:
+        url("./fonts/open_sans/OpenSans-Regular.woff") format("woff"),
+        url("./fonts/open_sans/OpenSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src:
+        url("./fonts/open_sans/OpenSans-Bold.woff") format("woff"),
+        url("./fonts/open_sans/OpenSans-Bold.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* @font-face {
+    font-family: "Open Sans";
+    src:
+        url("./fonts/open_sans/OpenSans-Regular.woff") format("woff"),
+        url("./fonts/open_sans/OpenSans-Regular.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 400;
+} */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 18px 165px 0px 165px; */
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 18px;
+}
+
+.header-logo {}
+
+
+.header__nav {
+    display: flex;
+    width: 512px;
+    justify-content: space-between
+}
+
+.header__buttons {
+    display: flex;
+}
+
+.header__button:first-child {
+    padding-right: 64px;
+}
+
+/* .container {
+    контейнеризация
+    max-width: 1110px;
+    margin: 0 auto;
+} */
+
+.top-container {
+    /* padding-left: calc(50% - 555px);
+    padding-right: calc(50% - 555px); */
+    /* ! padding: 89px 0 139px; */
+    /*  padding-top: 89px;
+    padding-bottom: 139px; */
+
+    padding: 89px calc(50% - 555px) 139px;
+
+    /* background-image: url('./img/bg/background_top.png'); */
+    /* background-position: center center; */
+    /* cover - картинка растягивается на всё доступное пространство */
+    /* contain - картинка помещается на всё доступное пространство */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+
+    background: url('../img/bg/background_top.png') center / cover no-repeat;
+    /* opacity: 0.5; */
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+.top-container__title {
+    color: white;
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 60px;
+    max-width: 629px;
+    width: 100%;
+    /* opacity: 1; */
+    margin-bottom: 4px;
+}
+
+.top-container__text {
+    margin-bottom: 4px;
+    max-width: 675px;
+    width: 100%;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.top-container__link {
+    display: flex;
+    width: 160px;
+    height: 34px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.link__text {
+    color: #BAE249;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.link__arrow {}
+
+.cards {
+    /* ! pb - в дальнейшем изменить  */
+    padding: 60px calc(50% - 555px) 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    position: relative;
+    max-width: 255px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.card__img {
+    width: 255px;
+    height: 180px;
+    padding: 30px 16px;
+}
+
+.card__numeric-value {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.card__img_plant {
+    background: #0B1919 url(../img/picture/plant.png) center no-repeat;
+}
+
+.card__img_flower {
+    background: #0B1919 url(../img/picture/flower.png) center no-repeat;
+}
+
+.card__img_leaf {
+    background: #0B1919 url(../img/picture/leaf.png) center no-repeat;
+}
+
+.card__img_wood {
+    background: #0B1919 url(../img/picture/wood.png) center no-repeat;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 313px;
+    padding: 16px 16px 24px 16px;
+}
+
+.card__title {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card__text {
+    color: #899D9D;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card__button {
+    color: #BAE249;
+    padding: 11px 29px;
+    border: 1px solid #BAE249;
+    max-width: 145px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
