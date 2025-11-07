@@ -1,0 +1,17 @@
+.footer {
+    background-color: #0B1919;
+    padding: 18px calc(50% - 93px);
+}
+
+.footer__links {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.bottom-content {
+    color: #899D9D;
+    background-color: #1D2F30;
+    padding: 3px 0;
+    text-align: center;
+}

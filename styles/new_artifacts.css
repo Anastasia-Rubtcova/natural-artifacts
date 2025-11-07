@@ -1,0 +1,153 @@
+.new-artifacts {
+    padding: 60px calc(50% - 555px) 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.new-artifacts__title {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.new-artifacts__content {
+    display: flex;
+    gap: 30px;
+}
+
+.content__artifacts {
+    position: relative;
+    max-width: 825px;
+    width: 100%;
+    background-color: #0B1919;
+}
+
+.moss42 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.artifact__numeric-value42 {
+    position: absolute;
+    top: 142px;
+    left: 16px;
+}
+
+.moss72 {
+    position: absolute;
+    top: 16px;
+    left: 165px;
+}
+
+.artifact__numeric-value72 {
+    position: absolute;
+    top: 16px;
+    left: 324px;
+}
+
+.wood27 {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+}
+
+.artifact__numeric-value27 {
+    position: absolute;
+    top: 50px;
+    right: 285px;
+}
+
+.flower51 {
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+}
+
+.artifact__numeric-value51 {
+    position: absolute;
+    bottom: 98px;
+    left: 156px;
+}
+
+.polypody91 {
+    position: absolute;
+    left: 285px;
+    bottom: 16px;
+}
+
+.artifact__numeric-value91 {
+    position: absolute;
+    bottom: 16px;
+    left: 394px;
+}
+
+.bark17 {
+    position: absolute;
+    right: 187px;
+    bottom: 16px;
+}
+
+.artifact__numeric-value17 {
+    position: absolute;
+    top: 168px;
+    right: 179px;
+}
+
+.flower23 {
+    position: absolute;
+    right: 15px;
+    bottom: 16px;
+}
+
+.artifact__numeric-value23 {
+    position: absolute;
+    bottom: 16px;
+    right: 56px;
+}
+
+.content__inf {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px 24px 16px;
+    background-color: #BAE249;
+    max-width: 255px;
+    width: 100%;
+    gap: 75px;
+}
+
+.content__inf-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.inf-container__title {
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1D2F30;
+}
+
+.inf-container__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #506829;
+}
+
+.content__inf__link {
+    display: flex;
+    gap: 8px;
+}
+
+.content__inf__link__text {
+    font-weight: 700;
+    font-size: 16px;
+    color: #0B1919;
+}
+
+.content__inf__link__svg {
+    margin-top: 2px;
+}

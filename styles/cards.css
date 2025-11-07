@@ -1,0 +1,75 @@
+.cards {
+    /* ! pb - в дальнейшем изменить  */
+    padding: 60px calc(50% - 555px) 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: #1D2F30;
+}
+
+.card {
+    position: relative;
+    max-width: 255px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.card__img {
+    width: 255px;
+    height: 180px;
+    padding: 30px 16px;
+}
+
+.card__numeric-value {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.card__img_plant {
+    background: #0B1919 url(../img/picture/plant.png) center no-repeat;
+}
+
+.card__img_flower {
+    background: #0B1919 url(../img/picture/flower.png) center no-repeat;
+}
+
+.card__img_leaf {
+    background: #0B1919 url(../img/picture/leaf.png) center no-repeat;
+}
+
+.card__img_wood {
+    background: #0B1919 url(../img/picture/wood.png) center no-repeat;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 313px;
+    padding: 16px 16px 24px 16px;
+}
+
+.card__title {
+    font-family: 'Cormorant';
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card__text {
+    color: #899D9D;
+
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card__button {
+    color: #BAE249;
+    padding: 11px 29px;
+    border: 1px solid #BAE249;
+    max-width: 145px;
+
+    font-weight: 400;
+    font-size: 16px;
+}
