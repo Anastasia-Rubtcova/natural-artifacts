@@ -45,13 +45,23 @@
     gap: 8px;
 }
 
+.top-container__link:hover .link__arrow {
+    transform: translateX(4px);
+    fill: #91AC46;
+}
+
 .link__text {
     color: #BAE249;
-
     font-weight: 700;
     font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}
+
+.top-container__link:hover .link__text {
+    color: #91AC46;
 }
 
 .link__arrow {
     margin-top: 2px;
+    transition: all 0.3s ease-in-out;
 }

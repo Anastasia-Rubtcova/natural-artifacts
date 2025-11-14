@@ -4,15 +4,10 @@
 }
 
 .bottom-container__title {
-    font-family: 'Cormorant';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 48px;
     margin-bottom: 16px;
 }
 
 .bottom-container__text {
-
     font-weight: 400;
     font-size: 16px;
     max-width: 825px;
@@ -29,12 +24,27 @@
 .form__input {
     max-width: 350px;
     padding: 13px 0 11px 16px;
+    background-color: #FFFFFF;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+}
+
+.form__input:hover {
+    background-color: #899D9D;
 }
 
 .form__input::placeholder {
-
     font-weight: 400;
     font-size: 16px;
+    transition: all 0.3s ease-in;
+}
+
+.form__input:hover::placeholder {
+    color: #FFFFFF;
+}
+
+.form__input:focus {
+    outline: 1px solid #83A440;
 }
 
 .form__button {
@@ -42,8 +52,12 @@
     width: 100%;
     padding: 11px 26px;
     background-color: #BAE249;
-
     font-weight: 700;
     font-size: 16px;
     color: #0B1919;
+    transition: all 0.3s ease-in;
+}
+
+.form__button:hover {
+    background-color: #91AC46;
 }

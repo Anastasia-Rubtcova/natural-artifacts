@@ -137,17 +137,28 @@
     color: #506829;
 }
 
-.content__inf__link {
+.content__links {
     display: flex;
     gap: 8px;
 }
 
-.content__inf__link__text {
+.content__link {
     font-weight: 700;
     font-size: 16px;
     color: #0B1919;
+    transition: all 0.3s ease-in-out;
 }
 
-.content__inf__link__svg {
+.content__icon-arrow {
     margin-top: 2px;
+    transition: all 0.3s ease-in-out;
+}
+
+.content__links:hover .content__icon-arrow {
+    transform: translateX(4px);
+    fill: #688B05;
+}
+
+.content__links:hover .content__link {
+    color: #688B05;
 }

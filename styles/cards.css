@@ -69,7 +69,12 @@
     padding: 11px 29px;
     border: 1px solid #BAE249;
     max-width: 145px;
-
     font-weight: 400;
     font-size: 16px;
+    transition: all 0.3s ease-in;
+}
+
+.card__button:hover {
+    background-color: #BAE249;
+    color: #0B1919;
 }
