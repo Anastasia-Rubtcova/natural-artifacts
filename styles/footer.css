@@ -1,12 +1,29 @@
-.footer {
+/* .footer {
     background-color: #0B1919;
     padding: 18px calc(50% - 93px);
-}
+} */
 
 .footer__links {
+    background-color: #0B1919;
+    padding: 18px 0;
     display: flex;
     gap: 24px;
     align-items: center;
+    justify-content: center;
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+}
+
+.footer__link svg {
+    fill: #899D9D;
+    transition: all 0.3s ease-in;
+}
+
+.footer__link:hover svg {
+    fill: #BAE249;
 }
 
 .bottom-content {

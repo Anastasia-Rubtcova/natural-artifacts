@@ -59,7 +59,7 @@
 
 .card__text {
     color: #899D9D;
-
+    line-height: 150%;
     font-weight: 400;
     font-size: 16px;
 }

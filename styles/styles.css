@@ -52,6 +52,19 @@
     font-weight: 700;
 }
 
+.main-subtitle {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.main-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
 /* .header {
     display: flex;
     justify-content: space-between;
@@ -144,7 +157,7 @@
 
 /* .cards {
     /* ! pb - в дальнейшем изменить  */
-    /* padding: 60px calc(50% - 555px) 60px;
+/* padding: 60px calc(50% - 555px) 60px;
     display: flex;
     flex-direction: row;
     gap: 30px;
