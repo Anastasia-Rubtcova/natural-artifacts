@@ -1,8 +1,3 @@
-/* .footer {
-    background-color: #0B1919;
-    padding: 18px calc(50% - 93px);
-} */
-
 .footer__links {
     background-color: #0B1919;
     padding: 18px 0;
@@ -24,6 +19,11 @@
 
 .footer__link:hover svg {
     fill: #BAE249;
+}
+
+.footer__link:active svg {
+    transition: all 0.1s ease-in;
+    fill: #688B05;
 }
 
 .bottom-content {

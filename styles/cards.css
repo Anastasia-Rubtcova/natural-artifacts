@@ -1,5 +1,4 @@
 .cards {
-    /* ! pb - в дальнейшем изменить  */
     padding: 60px calc(50% - 555px) 60px;
     display: flex;
     flex-direction: row;
@@ -77,4 +76,11 @@
 .card__button:hover {
     background-color: #BAE249;
     color: #0B1919;
+}
+
+.card__button:active {
+    transition: all 0.1s ease-in;
+    background-color: #688B05;
+    color: #0B1919;
+    border: 1px solid #688B05;
 }

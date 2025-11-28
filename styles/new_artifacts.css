@@ -5,20 +5,19 @@
     gap: 30px;
 }
 
-.new-artifacts__title {
-
-}
-
 .new-artifacts__content {
     display: flex;
     gap: 30px;
 }
 
 .content__artifacts {
-    position: relative;
     max-width: 825px;
     width: 100%;
     background-color: #0B1919;
+}
+
+.content__artifact-items {
+    position: relative;
 }
 
 .moss42 {
@@ -27,7 +26,7 @@
     left: 16px;
 }
 
-.artifact__numeric-value42 {
+.content__artifact-item-numeric-value42 {
     position: absolute;
     top: 142px;
     left: 16px;
@@ -39,7 +38,7 @@
     left: 165px;
 }
 
-.artifact__numeric-value72 {
+.content__artifact-item-numeric-value72 {
     position: absolute;
     top: 16px;
     left: 324px;
@@ -51,7 +50,7 @@
     top: 16px;
 }
 
-.artifact__numeric-value27 {
+.content__artifact-item-numeric-value27 {
     position: absolute;
     top: 50px;
     right: 285px;
@@ -59,35 +58,35 @@
 
 .flower51 {
     position: absolute;
-    bottom: 16px;
+    top: 148px;
     left: 16px;
 }
 
-.artifact__numeric-value51 {
+.content__artifact-item-numeric-value51 {
     position: absolute;
-    bottom: 98px;
+    top: 335px;
     left: 156px;
 }
 
 .polypody91 {
     position: absolute;
     left: 285px;
-    bottom: 16px;
+    top: 148px;
 }
 
-.artifact__numeric-value91 {
+.content__artifact-item-numeric-value91 {
     position: absolute;
-    bottom: 16px;
+    top: 417px;
     left: 394px;
 }
 
 .bark17 {
     position: absolute;
     right: 187px;
-    bottom: 16px;
+    top: 148px;
 }
 
-.artifact__numeric-value17 {
+.content__artifact-item-numeric-value17 {
     position: absolute;
     top: 168px;
     right: 179px;
@@ -96,12 +95,12 @@
 .flower23 {
     position: absolute;
     right: 15px;
-    bottom: 16px;
+    top: 148px;
 }
 
-.artifact__numeric-value23 {
+.content__artifact-item-numeric-value23 {
     position: absolute;
-    bottom: 16px;
+    top: 417px;
     right: 56px;
 }
 
@@ -146,12 +145,13 @@
     transition: all 0.3s ease-in-out;
 }
 
-.content__icon-arrow {
+.content__icon-arrow svg {
+    fill: #0B1919;
     margin-top: 2px;
     transition: all 0.3s ease-in-out;
 }
 
-.content__links:hover .content__icon-arrow {
+.content__links:hover .content__icon-arrow svg {
     transform: translateX(4px);
     fill: #688B05;
 }

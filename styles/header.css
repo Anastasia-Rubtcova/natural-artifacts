@@ -10,9 +10,6 @@
     align-items: center;
 }
 
-.header-logo {}
-
-
 .header__nav {
     display: flex;
     width: 512px;
@@ -20,12 +17,35 @@
 }
 
 .nav__link {
-
     font-weight: 400;
     font-size: 16px;
+    transition: all 0.3s ease-in;
 }
 
 .header__buttons {
     display: flex;
     gap: 64px;
+}
+
+.nav__link:hover {
+    color: #BAE249;
+}
+
+.nav__link:active {
+    transition: all 0.1s ease-in;
+    color: #688B05;
+}
+
+.header__button svg {
+    stroke: #BAE249;
+    transition: all 0.3s ease-in;
+}
+
+.header__button:hover svg {
+    stroke: #91AC46;
+}
+
+.header__button:active svg {
+    transition: all 0.1s ease-in;
+    stroke: #688B05;
 }

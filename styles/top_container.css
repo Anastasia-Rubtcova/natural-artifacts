@@ -44,9 +44,14 @@
     gap: 8px;
 }
 
-.top-container__link:hover .link__arrow {
+.top-container__link:hover .link__arrow svg {
     transform: translateX(4px);
     fill: #91AC46;
+}
+
+.top-container__link:active .link__arrow svg {
+    fill: #688B05;
+    transition: all 0.1s ease-in-out;
 }
 
 .link__text {
@@ -60,7 +65,17 @@
     color: #91AC46;
 }
 
-.link__arrow {
+.top-container__link:active .link__text {
+    transition: all 0.1s ease-in-out;
+    color: #688B05;
+}
+
+.link__arrow svg {
+    fill: #BAE249;
     margin-top: 2px;
     transition: all 0.3s ease-in-out;
+}
+
+.top-container__link:focus {
+    border: 1px solid #BAE249;
 }
