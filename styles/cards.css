@@ -2,19 +2,18 @@
     padding: 60px calc(50% - 555px) 60px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
     background-color: #1D2F30;
 }
 
 .card {
     position: relative;
-    max-width: 255px;
-    width: 100%;
     border: 1px solid black;
+    flex: 1 1 calc(25% - 30px);
 }
 
 .card__img {
-    width: 255px;
     height: 180px;
     padding: 30px 16px;
 }
