@@ -34,6 +34,6 @@ input {
 
 body {
     font-family: 'Open Sans';
-    background-color: #1D2F30;
+    background-color: var(--background);
     color: #FFFFFF;
 }

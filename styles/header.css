@@ -3,7 +3,7 @@
     justify-content: space-between;
     padding: 18px calc(50% - 555px) 18px;
     position: fixed;
-    background-color: #0B1919;
+    background-color: var(--background-shade);
     width: 100%;
     top: 0;
     z-index: 5;
@@ -28,24 +28,24 @@
 }
 
 .nav__link:hover {
-    color: #BAE249;
+    color: var(--primary-green);
 }
 
 .nav__link:active {
     transition: all 0.1s ease-in;
-    color: #688B05;
+    color: var(--green-active);
 }
 
 .header__button svg {
-    stroke: #BAE249;
+    stroke: var(--primary-green);
     transition: all 0.3s ease-in;
 }
 
 .header__button:hover svg {
-    stroke: #91AC46;
+    stroke: var(--green-hover);
 }
 
 .header__button:active svg {
     transition: all 0.1s ease-in;
-    stroke: #688B05;
+    stroke: var(--green-active);
 }

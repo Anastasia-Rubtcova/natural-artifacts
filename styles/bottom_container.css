@@ -28,7 +28,7 @@
 }
 
 .form__input:hover {
-    background-color: #899D9D;
+    background-color: var(--grey);
 }
 
 .form__input::placeholder {
@@ -42,25 +42,25 @@
 }
 
 .form__input:focus {
-    outline: 1px solid #83A440;
+    outline: 1px solid var(--green-focus);
 }
 
 .form__button {
     max-width: 145px;
     width: 100%;
     padding: 11px 26px;
-    background-color: #BAE249;
+    background-color: var(--primary-green);
     font-weight: 700;
     font-size: 16px;
-    color: #0B1919;
+    color: var(--background-shade);
     transition: all 0.3s ease-in;
 }
 
 .form__button:hover {
-    background-color: #91AC46;
+    background-color: var(--green-hover);
 }
 
 .form__button:active {
     transition: all 0.1s ease-in;
-    background-color: #688B05;
+    background-color: var(--green-active);
 }

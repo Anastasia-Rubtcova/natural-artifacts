@@ -1,3 +1,15 @@
+:root {
+    --green-hover: #91AC46;
+    --green-active: #688B05;
+    --primary-green: #BAE249;
+    --background: #1D2F30;
+    --grey: #899D9D;
+    --background-shade: #0B1919;
+    --green-text: #506829;
+    --green-focus: #83A440;
+}
+
+
 @font-face {
     font-family: "Cormorant";
     src:

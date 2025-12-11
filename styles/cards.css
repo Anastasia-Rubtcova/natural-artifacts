@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 30px;
-    background-color: #1D2F30;
+    background-color: var(--background);
 }
 
 .card {
@@ -25,19 +25,19 @@
 }
 
 .card__img_plant {
-    background: #0B1919 url(../img/picture/plant.png) center no-repeat;
+    background: var(--background-shade) url(../img/picture/plant.png) center no-repeat;
 }
 
 .card__img_flower {
-    background: #0B1919 url(../img/picture/flower.png) center no-repeat;
+    background: var(--background-shade) url(../img/picture/flower.png) center no-repeat;
 }
 
 .card__img_leaf {
-    background: #0B1919 url(../img/picture/leaf.png) center no-repeat;
+    background: var(--background-shade) url(../img/picture/leaf.png) center no-repeat;
 }
 
 .card__img_wood {
-    background: #0B1919 url(../img/picture/wood.png) center no-repeat;
+    background: var(--background-shade) url(../img/picture/wood.png) center no-repeat;
 }
 
 .card__content {
@@ -56,16 +56,16 @@
 }
 
 .card__text {
-    color: #899D9D;
+    color: var(--grey);
     line-height: 150%;
     font-weight: 400;
     font-size: 16px;
 }
 
 .card__button {
-    color: #BAE249;
+    color: var(--primary-green);
     padding: 11px 29px;
-    border: 1px solid #BAE249;
+    border: 1px solid var(--primary-green);
     max-width: 145px;
     font-weight: 400;
     font-size: 16px;
@@ -73,13 +73,13 @@
 }
 
 .card__button:hover {
-    background-color: #BAE249;
-    color: #0B1919;
+    background-color: var(--primary-green);
+    color: var(--background-shade);
 }
 
 .card__button:active {
     transition: all 0.1s ease-in;
-    background-color: #688B05;
-    color: #0B1919;
-    border: 1px solid #688B05;
+    background-color: var(--green-active);
+    color: var(--background-shade);
+    border: 1px solid var(--green-active);
 }

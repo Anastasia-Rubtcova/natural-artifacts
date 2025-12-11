@@ -1,5 +1,5 @@
 .footer__links {
-    background-color: #0B1919;
+    background-color: var(--background-shade);
     padding: 18px 0;
     display: flex;
     gap: 24px;
@@ -13,22 +13,22 @@
 }
 
 .footer__link svg {
-    fill: #899D9D;
+    fill: var(--grey);
     transition: all 0.3s ease-in;
 }
 
 .footer__link:hover svg {
-    fill: #BAE249;
+    fill: var(--primary-green);
 }
 
 .footer__link:active svg {
     transition: all 0.1s ease-in;
-    fill: #688B05;
+    fill: var(--green-active);
 }
 
 .bottom-content {
-    color: #899D9D;
-    background-color: #1D2F30;
+    color: var(--grey);
+    background-color: var(--background);
     padding: 3px 0;
     text-align: center;
 }
