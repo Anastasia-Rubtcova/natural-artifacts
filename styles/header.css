@@ -49,3 +49,7 @@
     transition: all 0.1s ease-in;
     stroke: var(--green-active);
 }
+
+.header__burger {
+    display: none;
+}

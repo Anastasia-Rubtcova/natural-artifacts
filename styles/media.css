@@ -45,8 +45,79 @@
         gap: 32px;
     }
 
-    .header__nav-list {
+    /* .header__nav-list {
         display: none;
+    } */
+
+    .header__nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        font-size: 42px;
+        position: fixed;
+        height: calc(100% - 64px);
+        width: 100%;
+        background-color: var(--grey);
+        left: 0;
+        right: 0;
+        padding: 30px 0;
+        transition: 0.4s ease;
+        top: -200%;
+    }
+
+    .header__nav._active {
+        top: 64px;
+    }
+
+    .header__burger {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__burger span {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background-color: var(--primary-green);
+        /* transition: 0.2s ease; */
+    }
+
+    .header__burger span::before {
+        content: "";
+        width: 30px;
+        height: 1.5px;
+        background-color: var(--primary-green);
+        position: absolute;
+        top: 20px;
+        /* transition: 0.2s ease; */
+    }
+
+    .header__burger span::after {
+        content: "";
+        width: 30px;
+        height: 2px;
+        background-color: var(--primary-green);
+        position: absolute;
+        top: 42px;
+    }
+
+    .header__burger._active span {
+        transform: rotate(-45deg);
+        transition: 0.2s ease;
+        background-color: var(--grey);
+    }
+
+    .header__burger._active span::before {
+        transform: rotate(270deg);
+        top: 1px;
+        height: 2px;
+        transition: 0.2s ease;
+        background-color: var(--grey);
+    }
+
+    .header__burger._active span::after {
+        width: 0;
     }
 
     .top-container__title {
@@ -66,8 +137,14 @@
         display: block;
     }
 
+    .new-artifacts__content {
+        flex-direction: column;
+    }
+
     .content__artifacts {
-        display: none;
+        height: 493px;
+        width: 100%;
+        max-width: 100%;
     }
 
     .bottom-container__text {

@@ -7,6 +7,7 @@
 
 .new-artifacts__content {
     display: flex;
+    flex-direction: row;
     gap: 30px;
 }
 
@@ -14,6 +15,7 @@
     max-width: 825px;
     width: 100%;
     background-color: var(--background-shade);
+    overflow: auto;
 }
 
 .content__artifact-items {
@@ -46,14 +48,14 @@
 
 .wood27 {
     position: absolute;
-    right: 16px;
+    left: 385px;
     top: 16px;
 }
 
 .content__artifact-item-numeric-value27 {
     position: absolute;
     top: 50px;
-    right: 285px;
+    left: 516px;
 }
 
 .flower51 {
@@ -82,26 +84,26 @@
 
 .bark17 {
     position: absolute;
-    right: 187px;
+    left: 470px;
     top: 148px;
 }
 
 .content__artifact-item-numeric-value17 {
     position: absolute;
     top: 168px;
-    right: 179px;
+    left: 620px;
 }
 
 .flower23 {
     position: absolute;
-    right: 15px;
+    left: 685px;
     top: 148px;
 }
 
 .content__artifact-item-numeric-value23 {
     position: absolute;
     top: 417px;
-    right: 56px;
+    left: 745px;
 }
 
 .content__inf {
